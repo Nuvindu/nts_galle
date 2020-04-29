@@ -8,6 +8,11 @@ header {
 	overflow: auto;
 	padding: 10px;
 }
+.logger {
+  padding-top: 3px;
+  padding-right: 5px;
+  float: right;
+}
 .add {
 	float: right;
 	padding: 10px;
