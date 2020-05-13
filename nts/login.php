@@ -49,13 +49,8 @@ if (isset($_POST['submit'])) {
 					$_SESSION['user_id'] = $user['id'];
 					echo $_SESSION['user_id'];
 					$_SESSION['first_name'] = $user['fname'];
-					$_SESSION['last_name'] = $user['iname'];
-					$_SESSION['NIC'] = $user["NIC"];
-					$_SESSION["birthday"] = $user["birthday"];
-					$_SESSION["email"] = $user["email"];
-					$_SESSION["profile_picture_dir"] = $user["profile_picture_dir"];
 					// redirect to users.php
-					header('Location: user-page.php');
+					header('Location: users.php');
 				} else {
 					$errors[] = 'Invalid Password';
 				}

@@ -1,1 +1,0 @@
-# nts_galle
