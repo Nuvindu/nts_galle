@@ -12,7 +12,7 @@
 <body>
     <div class="nts-text">
         <div>
-            <img class="logo" src="./img/logo.png" alt="logo">
+            <img class="logo" src="./img/logo-0.png" alt="logo">
         </div>
         <div style="flex-grow: 8">
             <h1 class="nts-text1">NURSES TRAINING SCHOOL</h1>

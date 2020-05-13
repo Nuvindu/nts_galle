@@ -1,7 +1,11 @@
 <?php session_start(); ?>
-<?php require_once('inc/connection.php'); ?>
-<?php require_once('inc/functions.php'); ?>
-<?php 
+<?php
+require_once './dbOperations/includes/config.inc.php';
+require_once './dbOperations/includes/connect&functions.inc.php'; ?>
+<?php
+// connect to database
+$db = connect(DB_HOST, DB_NAME, DB_USERNAME, DB_PASSWORD);
+
 	// checking if a user is logged in
 	if (!isset($_SESSION['user_id'])) {
 		header('Location: index.php');
