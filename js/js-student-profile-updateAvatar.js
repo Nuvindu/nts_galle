@@ -46,6 +46,8 @@ $(document).ready(function() {
 
 				var modalpp = document.getElementById('modal-pp');
 				modalpp.style.display = 'none';
+				location.reload(true);
+
 			},
 			error: function(error) {
 				alert(error);
